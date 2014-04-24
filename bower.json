@@ -1,0 +1,24 @@
+{
+  "name": "APCPageViewer",
+  "main": "APCPageViewer.js",
+  "version": "0.0.1",
+  "authors": [
+    "aspick <info@aspick.net>"
+  ],
+  "description": "simple slide show",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}

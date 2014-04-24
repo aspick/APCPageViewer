@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>sandbox</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="APCPageViewer.js"></script>
+	<script type="text/javascript">
+$(function(){
+	var images = [
+		'images/image1.jpg',
+		'images/image2.jpg',
+		'images/image3.jpg'
+	];
+	var pageViewer = new PageViewer($('#apc-viewer'),images);
+	pageViewer.build();
+});
+	</script>
+	<link rel="stylesheet" type="text/css" href="APCPageViewer.css">
+</head>
+<body>
+	<div id="apc-viewer" style="width:500px;height:600px;"></div>
+
+</body>
+</html>
